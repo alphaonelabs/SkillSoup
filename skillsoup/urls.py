@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'skillsoup.views.home', name='home'),
+    url(r'^$', 'website.views.home', name='home'),
     # url(r'^skillsoup/', include('skillsoup.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
